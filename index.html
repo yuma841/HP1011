@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>横並びサンプル</title>
+    <style>
+        .gazo{
+            background-color: rgb(253, 243, 230);
+            max-width: 1000px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin: 0 auto;
+
+        }
+        .text{
+            background-color: rgb(133, 150, 104);
+            color: #Ffffff;
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .mozi{
+            text-align: center;
+        }
+        @media(max-width:767px){
+            .gazo{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="gazo">
+        <div class="box"><img src="../1011/img/a.svg" alt="画像ボックス">
+            <p class="mozi">テキスト１</p></div>
+        <div class="box"><img src="../1011/img/b.svg" alt="画像ボックス">
+            <p class="mozi">テキスト2</p></div>
+        <div class="box"><img src="../1011/img/c.svg" alt="画像ボックス">
+            <p class="mozi">テキスト3</p></div>
+        <div class="box"><img src="../1011/img/d.svg" alt="画像ボックス">
+            <p class="mozi">テキスト4</p></div>       
+    </div>
+
+
+
+    <div class="text">D121 長岡 佑眞<br>簡単な説明説明説明説明説明説明説明説説明説説明説明説明明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明
+
+
+
+    </div>
+</body>
+</html>
