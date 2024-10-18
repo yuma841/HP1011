@@ -4,35 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D121</title>
+    <title>横並びサンプル</title>
     <style>
-        body{
-            text-align: center;
+        .gazo{
+            background-color: rgb(253, 243, 230);
+            max-width: 1000px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin: 0 auto;
+
         }
-        .red{
-            color: #ff0000;
-        }
-        .blue{
-            color: #0000ff;
-        }
-        .yeiiow{
-            color: #f0f00f;
-        }
-        #box1{
-            background-color: aquamarine;
-            width: 100px;
-            height: 100px;
-            text-align: center;
+        .text{
+            background-color: rgb(133, 150, 104);
+            color: #Ffffff;
+            width: 1000px;
             margin: 0 auto;
         }
+        .mozi{
+            text-align: center;
+        }
+        @media(max-width:767px){
+            .gazo{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+
     </style>
 </head>
 <body>
-    <h1>長岡佑眞</h1>
-    <p><a href="https://tokyo-ec.ac.jp/" target="_blank">東京電子専門学校</a><br><a href="https://tokyo-ec.ac.jp/course/info/shori.html" target="_blank">情報処理科</a></p>
-    <p><span class="red">red </span>/ <span class="blue">blue</span> / <span class="yeiiow">yellow</span></p>
-    <div id="box1"><span class="red">ボックス</span></div>
-    <p><a href="https://php2021.tokyo-ec.net/get.html?var=D121">おさらい。Get渡し</a></p>
-    <p><a href="https://php2021.tokyo-ec.net/get.html?var=random">ランダム</a></p>
+    <div class="gazo">
+        <div class="box"><img src="../1011/img/a.svg" alt="画像ボックス">
+            <p class="mozi">テキスト１</p></div>
+        <div class="box"><img src="../1011/img/b.svg" alt="画像ボックス">
+            <p class="mozi">テキスト2</p></div>
+        <div class="box"><img src="../1011/img/c.svg" alt="画像ボックス">
+            <p class="mozi">テキスト3</p></div>
+        <div class="box"><img src="../1011/img/d.svg" alt="画像ボックス">
+            <p class="mozi">テキスト4</p></div>       
+    </div>
+
+
+
+    <div class="text">D121 長岡 佑眞<br>簡単な説明説明説明説明説明説明説明説説明説説明説明説明明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明
+
+
+
+    </div>
 </body>
 </html>
